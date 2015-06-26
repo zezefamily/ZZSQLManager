@@ -14,6 +14,7 @@
 		E4C91E0B1B3D58FD00E2801B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C91E0A1B3D58FD00E2801B /* Images.xcassets */; };
 		E4C91E0E1B3D58FD00E2801B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4C91E0C1B3D58FD00E2801B /* LaunchScreen.xib */; };
 		E4C91E1A1B3D58FD00E2801B /* SQLManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C91E191B3D58FD00E2801B /* SQLManagerTests.m */; };
+		E4C91E291B3D5BF800E2801B /* SQLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C91E281B3D5BF800E2801B /* SQLManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E4C91E131B3D58FD00E2801B /* SQLManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C91E181B3D58FD00E2801B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4C91E191B3D58FD00E2801B /* SQLManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLManagerTests.m; sourceTree = "<group>"; };
+		E4C91E271B3D5BF800E2801B /* SQLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLManager.h; sourceTree = "<group>"; };
+		E4C91E281B3D5BF800E2801B /* SQLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		E4C91DFC1B3D58FD00E2801B /* SQLManager */ = {
 			isa = PBXGroup;
 			children = (
+				E4C91E231B3D592400E2801B /* class */,
 				E4C91E011B3D58FD00E2801B /* AppDelegate.h */,
 				E4C91E021B3D58FD00E2801B /* AppDelegate.m */,
 				E4C91E041B3D58FD00E2801B /* ViewController.h */,
@@ -117,6 +121,15 @@
 				E4C91E181B3D58FD00E2801B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4C91E231B3D592400E2801B /* class */ = {
+			isa = PBXGroup;
+			children = (
+				E4C91E271B3D5BF800E2801B /* SQLManager.h */,
+				E4C91E281B3D5BF800E2801B /* SQLManager.m */,
+			);
+			name = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				E4C91E061B3D58FD00E2801B /* ViewController.m in Sources */,
 				E4C91E031B3D58FD00E2801B /* AppDelegate.m in Sources */,
+				E4C91E291B3D5BF800E2801B /* SQLManager.m in Sources */,
 				E4C91E001B3D58FD00E2801B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
